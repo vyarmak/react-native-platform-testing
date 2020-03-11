@@ -1,0 +1,16 @@
+{
+  "preset": "react-native",
+  "haste": {
+    "defaultPlatform": "android",
+    "platforms": ["android", "ios", "native"],
+    "providesModuleNodeModules": ["react-native"]
+  },
+  "collectCoverageFrom": ["**/*.{js,jsx}"],
+  "collectCoverage": true,
+  "coverageReporters": ["lcov", "text-summary"],
+  "testPathIgnorePatterns": ["node_modules", ".*\\.ios\\..*"],
+  "transformIgnorePatterns": [
+    "/node_modules/(?!native-base|react-navigation)/"
+  ],
+  "snapshotResolver": "./jest.snapshot.resolver.js"
+}

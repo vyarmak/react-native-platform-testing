@@ -1,0 +1,172 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View>
+  <RCTScrollView
+    contentInsetAdjustmentBehavior="automatic"
+    style={
+      Object {
+        "backgroundColor": "#FFF",
+        "height": "100%",
+      }
+    }
+  >
+    <View>
+      <View
+        accessibilityIgnoresInvertColors={true}
+        style={
+          Object {
+            "backgroundColor": "#F3F3F3",
+            "paddingBottom": 40,
+            "paddingHorizontal": 32,
+            "paddingTop": 96,
+          }
+        }
+      >
+        <Image
+          accessibilityRole="image"
+          source={
+            Object {
+              "testUri": "../Libraries/NewAppScreen/components/logo.png",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "bottom": 0,
+                "left": 0,
+                "position": "absolute",
+                "right": 0,
+                "top": 0,
+              },
+              Object {
+                "height": undefined,
+                "width": undefined,
+              },
+              Object {
+                "marginBottom": -192,
+                "marginLeft": -128,
+                "opacity": 0.2,
+                "overflow": "visible",
+                "resizeMode": "cover",
+              },
+            ]
+          }
+        />
+        <Text
+          style={
+            Object {
+              "color": "#000",
+              "fontSize": 40,
+              "fontWeight": "600",
+              "textAlign": "center",
+            }
+          }
+        >
+          Welcome to React
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#FFF",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#FFF",
+              "marginTop": 32,
+              "paddingHorizontal": 24,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#000",
+                "fontSize": 24,
+                "fontWeight": "600",
+              }
+            }
+          >
+            Step One
+          </Text>
+          <Text
+            style={
+              Object {
+                "color": "#444",
+                "fontSize": 18,
+                "fontWeight": "400",
+                "marginTop": 8,
+              }
+            }
+          >
+            Edit 
+            <Text
+              style={
+                Object {
+                  "fontWeight": "700",
+                }
+              }
+            >
+              App.js
+            </Text>
+             to change this screen and then come back to see your edits.
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "backgroundColor": "#FFF",
+              "marginTop": 32,
+              "paddingHorizontal": 24,
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#444",
+                "fontSize": 18,
+                "fontWeight": "400",
+                "marginTop": 8,
+              }
+            }
+          >
+            Picker - 
+            js
+          </Text>
+          <AndroidDialogPicker
+            items={
+              Array [
+                Object {
+                  "color": null,
+                  "label": "Java",
+                },
+                Object {
+                  "color": null,
+                  "label": "JavaScript",
+                },
+              ]
+            }
+            onSelect={[Function]}
+            selected={1}
+            style={
+              Array [
+                Object {
+                  "height": 50,
+                },
+                Object {
+                  "width": "100%",
+                },
+              ]
+            }
+          />
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
