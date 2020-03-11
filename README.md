@@ -13,10 +13,9 @@ When tests are executed:
 
 Main changes are:
 
-`jest.android.json`
-`jest.snapshot.resolver.js`
-
-`package.json`
+- `jest.android.json`
+- `jest.snapshot.resolver.js`
+- `package.json`
 ```
   "jest": {
     "preset": "react-native",
